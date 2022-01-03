@@ -38,6 +38,10 @@ footer {
     align-items: center;
 }
 
+.nav-item {
+    font-size: small;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -89,13 +93,23 @@ img {
     
 }
 
+li {
+    list-style-image: none;
+    list-style-type: none;
+}
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
 }
 
 .section {
-    width: 50%
+    width: 50%;
+}
+
+.profile {
+    width: 100%;
+    text-align: center;
 }
 
 .section-title {
